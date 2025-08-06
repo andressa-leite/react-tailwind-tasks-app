@@ -17,6 +17,9 @@ function Tasks(props) {
           <button className="bg-slate-400">
             <ChevronRightIcon />
           </button>
+          <button onClick={() => props.onDeleteTaskClick(task.id)}>
+            <Trash />
+          </button>
         </li>
       ))}
     </ul>

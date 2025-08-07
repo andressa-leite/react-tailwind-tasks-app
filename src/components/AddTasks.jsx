@@ -10,7 +10,7 @@ function AddTasks() {
       />
       <input
         type="text"
-        placeholder="Digite o título da tarefa"
+        placeholder="Digite a descrição da tarefa"
         className="border border-slate-300 outline-slate-400 px-4 py-2 rounded-md"
       />
       <button className="bg-slate-300 outline-slate-400 px-4 py-2 text-blue-950 rounded-md font-medium">

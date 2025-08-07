@@ -25,7 +25,7 @@ function App() {
     },
   ]);
 
-  function onAddTaskSubmit() {
+  function onAddTaskSubmit(title, description) {
     const newTask = {
       id: tasks.length + 1,
       title: title,

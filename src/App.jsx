@@ -33,6 +33,7 @@ function App() {
       isCompleted: false,
     };
     setTasks([...tasks, newTask]);
+    console.log(newTask.id);
   }
 
   function onTaskClick(taskId) {

@@ -21,6 +21,7 @@ function AddTasks({ onAddTaskSubmit }) {
       />
       <button
         onClick={() => {
+          /*O ! não está sendo aplicado diretamente ao trim() como um método, mas sim ao resultado dele, que é uma string. Ele serve para verificar se, depois de remover os espaços, a string ainda tem algum conteúdo. Pq o trim() remove os espaços e deixa os outros caracteres. */
           if (!title.trim() || !description.trim()) {
             return alert("Preencha o título ou a descrição da tarefa");
           }
